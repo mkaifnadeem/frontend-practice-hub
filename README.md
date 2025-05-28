@@ -1,3 +1,10 @@
+<!-- BADGES -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-green.svg)]()
+
+<!--[![Netlify Status](https://api.netlify.com/api/v1/badges/[YOUR_NETLIFY_BADGE_ID]/deploy-status)]()-->
+
 # 🚀 Front-End Practice Projects
 
 Welcome to the **Front-End Practice Projects** repo — a curated collection of hands-on mini projects built to sharpen your front-end web dev skills.

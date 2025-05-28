@@ -17,4 +17,4 @@ yarn-error.log*
 .env.local
 
 # Ignore global Git commit message template if accidentally copied
-.gitmessage.txt
+gitmessage.txt
