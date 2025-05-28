@@ -1,0 +1,16 @@
+# Conventional Commit Template
+# Use this format for all commit messages:
+#
+# feat: Add new feature or project
+# fix: Fix a bug or issue
+# docs: Update README or comments
+# style: Code formatting, no logic changes
+# refactor: Code restructuring without functionality change
+# chore: Changes to config, deps, or build tools
+# test: Add or fix tests
+# ci: CI/CD related changes
+#
+# Example:
+# feat: add basic layout for portfolio page
+#
+# Keep the summary line under 72 characters
