@@ -1,3 +1,7 @@
+| Project Name              | Description                                                                        | Live Demo                                                                   |
+| ------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [CatPhotoApp](index.html) | A simple app using semantic HTML elements, including forms, anchor tag, and lists, | [Live](https://mkaifnadeem.github.io/frontend-practice-hub/04_CatPhotoApp/) |
+
 # 🐱 Cat Photo App
 
 ## Project Description
@@ -19,14 +23,6 @@ A fun project to practice basic HTML structure, images, lists, and forms—all t
 -   Comments in the code explaining each section.
 
 ---
-
-## 📸 Screenshot
-
-![Screenshot]()
-
-## 🌐 Live Demo
-
-[Live on Netlify]()
 
 Happy coding!
 

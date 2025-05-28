@@ -1,3 +1,7 @@
+| Project Name                                         | Description                                           | Live Demo                                                                                     |
+| ---------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Spaghetti Recipe](01_Spaghetti-Aglio-e-Olio-Recipe) | Semantic recipe page using headings, lists, and links | [Live](https://mkaifnadeem.github.io/frontend-practice-hub/01_Spaghetti-Aglio-e-Olio-Recipe/) |
+
 # 🍝 Spaghetti Aglio e Olio Recipe
 
 ## Project Description
@@ -17,13 +21,5 @@ Learn how to structure a recipe page using basic HTML elements.
 -   Comments in the code explaining each section.
 
 ---
-
-## 📸 Screenshot
-
-![Screenshot]()
-
-## 🌐 Live Demo
-
-[Live on Netlify]()
 
 Happy coding!

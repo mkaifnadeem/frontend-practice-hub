@@ -1,3 +1,7 @@
+| Project Name                                            | Description                                     | Live Demo                                                                                |
+| ------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [Table Tennis Leaderboard](02_Table-Tennis-Leaderboard) | HTML table to show player ranks + image + rules | [Live](https://mkaifnadeem.github.io/frontend-practice-hub/02_Table-Tennis-Leaderboard/) |
+
 # 🏓 Table Tennis Leaderboard
 
 ## Project Description
@@ -20,12 +24,4 @@ Build a simple leaderboard for a table tennis tournament using HTML tables and i
 
 ---
 
-## 📸 Screenshot
-
-![Screenshot]()
-
-## 🌐 Live Demo
-
-[Live on Netlify]()
-
-Happy coding!
+Happy codding!

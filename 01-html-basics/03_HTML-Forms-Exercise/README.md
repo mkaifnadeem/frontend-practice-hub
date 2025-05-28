@@ -1,3 +1,7 @@
+| Project Name                                  | Description                                      | Live Demo                                                                           |
+| --------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| [HTML Forms Exercise](03_HTML-Forms-Exercise) | A basic form using `input`, `textarea`, `select` | [Live](https://mkaifnadeem.github.io/frontend-practice-hub/03_HTML-Forms-Exercise/) |
+
 # 📝 HTML Forms Exercise
 
 ## Project Description
@@ -15,15 +19,8 @@ Practice creating and customizing HTML forms.
 
 -   Use of `<form>`, `<input>`, `<textarea>`, `<label>`, and `<button>`.
 -   Proper use of `required` attributes.
+-   Also look up
 
 ---
-
-## 📸 Screenshot
-
-![Screenshot]()
-
-## 🌐 Live Demo
-
-[Live on Netlify]()
 
 Happy coding!
