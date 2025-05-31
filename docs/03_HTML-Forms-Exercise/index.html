@@ -9,18 +9,72 @@
         <!-- Simple contact form for practice -->
         <h1>Contact Us</h1>
         <form>
-            <!-- Name input -->
-            <label for="name">Name:</label>
+            <!-- Name -->
+            <label for="name">Full Name:</label><br />
             <input type="text" id="name" name="name" required /><br /><br />
-            <!-- Email input -->
-            <label for="email">Email:</label>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br />
             <input type="email" id="email" name="email" required /><br /><br />
-            <!-- Message textarea -->
+
+            <!-- Phone -->
+            <label for="phone">Phone Number:</label><br />
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                placeholder="1234567890"
+            /><br /><br />
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label><br />
+            <input type="date" id="dob" name="dob" /><br /><br />
+
+            <!-- Gender -->
+            <label>Gender:</label><br />
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br />
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label><br /><br />
+
+            <!-- Country -->
+            <label for="country">Country:</label><br />
+            <select id="country" name="country">
+                <option value="">Select</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="Pakistan">India</option>
+                <option value="other">Other</option></select
+            ><br /><br />
+
+            <!-- Password -->
+            <label for="password">Password:</label><br />
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+            /><br /><br />
+
+            <!-- File upload -->
+            <label for="file">Upload File:</label><br />
+            <input type="file" id="file" name="file" /><br /><br />
+
+            <!-- Message -->
             <label for="message">Message:</label><br />
             <textarea id="message" name="message" rows="4" required></textarea
             ><br /><br />
-            <!-- Submit button -->
-            <button type="submit">Send</button>
+
+            <!-- Agree to terms -->
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">I agree to the terms and conditions</label
+            ><br /><br />
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
         </form>
     </body>
 </html>
