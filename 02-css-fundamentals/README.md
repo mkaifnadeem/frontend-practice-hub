@@ -62,6 +62,6 @@ After mastering JavaScript (see `03-javascript`), revisit SASS and Tailwind for 
 <br>
 
 **Happy styling!**  
-`– Kaif`
+`– mkaifnadeem`
 
 </div>

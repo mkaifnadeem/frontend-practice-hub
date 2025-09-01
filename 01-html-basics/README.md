@@ -11,10 +11,19 @@ This section contains beginner-level HTML projects to practice structure, semant
 
 ## 🧾 Skills Practiced
 
--   Semantic HTML
--   Lists: `ul`, `ol`
--   Forms: `input`, `label`, `textarea`
--   Tables and captions
--   Basic image formatting
+- Semantic HTML
+- Lists: `ul`, `ol`
+- Forms: `input`, `label`, `textarea`
+- Tables and captions
+- Basic image formatting
 
-Happy coding!
+---
+
+<div align="center">
+
+<br>
+
+**Happy styling!**  
+`– mkaifnadeem`
+
+</div>
