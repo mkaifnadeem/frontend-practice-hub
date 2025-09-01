@@ -1,0 +1,146 @@
+/* variable */
+:root {
+  /* Glass background */
+  --border: 1px solid rgba(255, 255, 255, 0.2);
+  --background-color-glass: rgba(255, 255, 255, 0.1);
+  --backdrop-filter-glass: blur(10px) brightness(1.1);
+  /* Themes color */
+  --main-color: rgb(29, 39, 58);
+  --secondary-color: rgb(236, 174, 71);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+
+body {
+  min-height: 100vh;
+  color: antiquewhite;
+  /* background-image: url(/image/background_image.svg);
+  background-position: left;
+  background-size: cover; */
+  background-color: var(--main-color);
+}
+
+/* page title */
+
+header {
+  margin-block: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding: 0.5rem;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+/* social media links */
+
+.social {
+  padding: 5px 1px;
+  height: 80px;
+  width: 25px;
+  border: var(--border);
+  border-right: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+
+.social img.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.social img.icon:hover,
+.social img.icon:focus {
+  scale: 1.5;
+  transition-duration: 0.5s;
+}
+
+/* Main section */
+
+main.employ-cards {
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* @media screen (min-width:640px) {
+  main.employ-cards{
+
+  }  
+} */
+
+/* Card container */
+
+.card-container {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-glass);
+  backdrop-filter: var(--backdrop-filter-glass);
+  border: var(--border);
+}
+
+/* picture container  of card */
+
+.card-container .upper-sub-container {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: var(--border);
+}
+
+.card-container .upper-sub-container img.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 500px;
+  object-fit: cover;
+}
+
+/* info container of card */
+
+.card-container .lower-sub-container {
+  width: 100%;
+  height: 60%;
+  padding: 0.5em 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.card-container .lower-sub-container h2.name:hover {
+  border-bottom: 2px solid var(--secondary-color);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.card-container .lower-sub-container p.job-title {
+  padding: 0.2rem;
+  opacity: 0.8;
+  border: var(--border);
+  border-radius: 0.2rem;
+  background-color: rgba(236, 174, 71, 0.2);
+}
